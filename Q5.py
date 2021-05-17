@@ -2,7 +2,7 @@ def norp (arr):
     even=0
     odd=0
     for i in arr:
-        if arr[i] %2 == 0:
+        if arr[i] >= 0:
             even+=arr[i]
         else:
             odd+=arr[i]
